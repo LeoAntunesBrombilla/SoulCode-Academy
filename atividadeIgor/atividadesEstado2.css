@@ -1,0 +1,56 @@
+section {
+  display: flex;
+}
+
+strong {
+  border: dashed 1px red;
+}
+
+body {
+  background-image: url("mapabrasil.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-attachment: fixed;
+  background-position: 80% 10%;
+}
+
+div {
+  height: 100px;
+  width: 200px;
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.norte {
+    box-shadow: 10px 10px 10px rgb(81, 189, 81);
+}
+
+.cenOeste {
+    box-shadow: 10px 10px 10px rgb(251, 255, 0); 
+}
+
+.nordeste {
+    box-shadow: 10px 10px 10px orange;
+}
+
+.sudeste {
+    box-shadow: 10px 10px 10px rgb(5, 83, 18);
+}
+
+.sul {
+    box-shadow: 10px 10px 10px rgb(19, 61, 175);
+}
+
+section img {
+  height: 60px;
+  width: 60px;
+  float: left;
+  padding: 5px;
+}
+
+p {
+  float: right;
+}

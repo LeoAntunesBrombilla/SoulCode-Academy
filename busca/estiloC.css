@@ -1,0 +1,38 @@
+#txtBusca {
+  float: left;
+
+  background-color: transparent;
+
+  padding-left: 5px;
+
+  font-size: 18px;
+
+  border: none;
+
+  height: 32px;
+
+  width: 240px;
+}
+
+#btnBusca {
+  float: left;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#divBusca img {
+  padding-top: 3px;
+  padding-left: 3px;
+  float: left;
+}
+
+#divBusca {
+  border: solid 10px rgba(39, 38, 28, 0.8);
+
+  border-radius: 8px;
+
+  height: 37px;
+
+  width: 400px;
+}
