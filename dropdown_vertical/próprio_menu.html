@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu vertical</title>
+    <link rel="stylesheet" type="text/css" href="estilo2.css" />
+  </head>
+  <body>
+    <ul id="nav">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Sobre</a>
+      </li>
+      <!-- dentro do próximo li teremos o segundo nível de sublista -->
+      <li>
+        <a href="#">SUB LISTAS!</a>
+      <!-- Aqui criamos o segundo nível de lista não ordenada -->
+        <ul>
+          <li>
+            <a href="#"> Web Design </a>
+            <!-- Aqui criamos o terceiro nível -->
+            <ul>
+                <li>
+                  <a href="#">Teste%</a>
+                </li>
+                <li>
+                  <a href="#">Teste&</a>
+                </li>
+                <li>
+                  <a href="#">Teste*</a>
+                </li>
+                <li>
+                  <a href="#">Teste4#</a>
+                </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Escolha esse</a>
+            <ul>
+              <li>
+                <a href="#">Teste1</a>
+              </li>
+              <li>
+                <a href="#">Teste2</a>
+              </li>
+              <li>
+                <a href="#">Teste3</a>
+              </li>
+              <li>
+                <a href="#">Teste4</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"> Ou esse</a>
+            <ul>
+              <li>
+                <a href="#">TesteA</a>
+              </li>
+              <li>
+                <a href="#">TesteB</a>
+              </li>
+              <li>
+                <a href="#">TesteC</a>
+              </li>
+              <li>
+                <a href="#">TesteD</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Sistemas</a>
+            <ul>
+              <li>
+                <a href="#">TesteI</a>
+              </li>
+              <li>
+                <a href="#">TesteII</a>
+              </li>
+              <li>
+                <a href="#">TesteIII</a>
+              </li>
+              <li>
+                <a href="#">TesteIV</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="#">Contato</a></li>
+    </ul>
+
+    <!-- Script para funcionar no internet explorer -->
+    <!-- <script type="text/javascript">
+      startList = function () {
+        if (document.all && document.getElementById) {
+          navRoot = document.getElementById("menuDropDown");
+
+          for (i = 0; i < navRoot.childNodes.length; i++) {
+            node = navRoot.childNodes[i];
+
+            if (node.nodeName == "LI") {
+              node.onmouseover = function () {
+                this.className += " over";
+              };
+
+              node.onmouseout = function () {
+                this.className = this.className.replace(" over", "");
+              };
+            }
+          }
+        }
+      };
+
+      window.onload = startList;
+    </script> -->
+  </body>
+</html>

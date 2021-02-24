@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contate-nos</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho do site -->
+    <header>
+      <!--menu e logo-->
+      <nav id="menu">
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="apresEqu.html">Equipe</a></li>
+        </ul>
+      </nav>
+      <a href="index.html"
+        ><img src="imagens/logo.png" id="logo-menu" alt="logo SoulCode"
+      /></a>
+      <!--final menu e logo-->
+    </header>
+    <!-- Fim do cabeçalho do site -->
+    <main id="bodypage">
+      <!-- Banner principal -->
+
+      <div class="banner">
+        <h1 id="h1banner">Fale com a gente!</h1>
+      </div>
+
+      <!-- Table, a esquerda com o formulário e a direita com o map -->
+
+      <table>
+        <tr>
+          <td class="box1">
+            <form id="contatoForm" action="#" method="POST">
+              <div class="bannerp">
+                Quer nos contar o que você está pensando? É simples e rápido!<br />
+                Preencha o formulário abaixo que te respondemos o mais rápido
+                possível!
+              </div>
+              <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome Completo" />
+              </div>
+
+              <div>
+                <label for="email">E-mail:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="exemplo@email.com"
+                />
+              </div>
+
+              <div>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" placeholder="Assunto" />
+              </div>
+
+              <div>
+                <label class="descricao" for="descricao">Descrição:</label>
+                <textarea
+                  name="description"
+                  id="descricao"
+                  cols="30"
+                  rows="10"
+                  placeholder=" Escreva sua mensagem"
+                ></textarea>
+              </div>
+
+              <footer id="footerContato">
+                <button id="buttonContato" type="submit">Enviar</button>
+              </footer>
+            </form>
+          </td>
+
+          <aside>
+            <td class="box2">
+              <p id="greet">Venha nos visitar</p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.302504071497!2d-46.68851868464981!3d-23.593481668665138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57464012d86b%3A0x63f27345c345c07!2sR.%20Helena%2C%20235%20-%20Vila%20Ol%C3%ADmpia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004552-050!5e0!3m2!1spt-BR!2sbr!4v1612533622671!5m2!1spt-BR!2sbr"
+                width="350"
+                height="300"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+              <h2>
+                <img src="imagens/location.svg" width="16px" alt="" /> Endereço:
+              </h2>
+
+              <p id="address">
+                Rua Helena, 235 - Conj 111, 11ª andar <br />
+                Vila Olímpia - São Paulo/SP <br />
+                CEP: 04552-050
+              </p>
+            </td>
+          </aside>
+        </tr>
+      </table>
+    </main>
+
+    <!-- Rodapé do site -->
+
+    <!--Rodapé-->
+    <footer id="rodape">
+      <br />
+      <img src="imagens/logo.png" id="logofooter" />
+
+      <div class="menufooteresq">
+        <h4 class="listamenu">Explore</h4>
+        <br />
+        <ul id="lista">
+          <small>
+            <li class="listas1">
+              <a href="index.html" target="_self">Início</a>
+            </li>
+            <li class="listas1">
+              <a href="apresEqu.html" target="_self">Equipe</a>
+            </li>
+            <li class="listas1">
+              <a href="contato.html" target="_self">Contato</a>
+            </li>
+          </small>
+        </ul>
+      </div>
+      <div class="textofooter">
+        <h4 class="titulotexto">endereço</h4>
+        <p>
+          <small>
+            Rua Helena, 235 Conj 111 <br />
+            11ª andar - Vila Olímpia São Paulo/SP <br />
+            CEP: 04552-050
+          </small>
+        </p>
+      </div>
+      <figure id="iconefooter">
+        <div id="linhahorizontal"></div>
+        <a href="https://www.facebook.com/SoulCodeAcademy/" target="_blank"
+          ><img
+            src="imagens/facebook.png"
+            id="facebook"
+            width="25px"
+            height="25px"
+        /></a>
+        <a
+          href="https://www.linkedin.com/company/soulcodebrasil/"
+          target="_blank"
+          ><img
+            src="imagens/linkedin.png"
+            id="linkedin"
+            width="25px"
+            height="25px"
+        /></a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"
+          ><img src="imagens/instagram.png" width="25px" height="25px"
+        /></a>
+      </figure>
+    </footer>
+  </body>
+</html>

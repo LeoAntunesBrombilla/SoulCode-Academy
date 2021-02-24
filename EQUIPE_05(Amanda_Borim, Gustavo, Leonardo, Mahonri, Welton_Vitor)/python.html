@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de Python</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho do site -->
+
+    <header>
+      <!--menu e logo-->
+      <nav id="menu">
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="apresEqu.html">Equipe</a></li>
+          <li class="menu">
+            <a href="#" class="menu-item">Cursos de Desenvolvimento Pessoal</a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="inteligencia-emocional.html"
+                    >Inteligência Emocional</a
+                  >
+                </li>
+                <li><a href="gestao-pessoas.html">Gestão de Pessoas</a></li>
+                <li>
+                  <a href="como-falar-publico.html"
+                    >Como Falar Bem em Publico</a
+                  >
+                </li>
+                <li><a href="gestao-tempo.html">Gestão do Tempo</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <a href="#" class="menu-item">Cursos de TI e Software</a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="manutencao-computadores.html"
+                    >Manutenção de Computadores</a
+                  >
+                </li>
+                <li>
+                  <a href="rede-computadores.html">Redes de Computadores</a>
+                </li>
+                <li>
+                  <a href="algoritmos-logica.html"
+                    >Algoritmos e Lógica de Programação</a
+                  >
+                </li>
+                <li><a href="python.html">Python</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <a href="#" class="menu-item">Cursos de Desenvolvimento</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="html-css.html">HTML/CSS</a></li>
+                <li>
+                  <a href="javascript-jquery.html">JavaScript e JQuery</a>
+                </li>
+                <li>
+                  <a href="java-orientacao-objetos.html"
+                    >Java e Orientação a Objetos</a
+                  >
+                </li>
+                <li><a href="android.html">Android</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <a href="#" class="menu-item">Cursos de Design</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="adobe-photoshop.html">Adobe Photoshop</a></li>
+                <li><a href="autocad.html">AutoCad</a></li>
+                <li><a href="ux-ui.html">UX e UI</a></li>
+                <li><a href="coreldraw.html">Corel Draw</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <a href="index.html"
+        ><img src="imagens/logo.png" id="logo-menu" alt="logo SoulCode"
+      /></a>
+    </header>
+    <!--final menu e logo-->
+
+    <!-- Fim do cabeçalho do site -->
+
+    <main>
+      <section id="nomeCurso">
+        <h1>Python</h1>
+      </section>
+
+      <!-- Tabela com a descrição do curso! -->
+      <section id="desc-Curso">
+        <table id="info">
+          <tr>
+            <td class="info-img">
+              <figure>
+                <img id="prog" src="imagens/python.png" alt="log do Python" />
+              </figure>
+            </td>
+            <td class="info-txt">
+              <h3>Sobre o curso</h3>
+              <p>
+                Com o Python, uma das linguagens mais utlizadas no mundo, você
+                vai criar programas usando a última versão do Python e vai estar
+                preparado para usá-lo na web com os principais frameworks do
+                mercado e ainda dar seus primeiros passos para chegar à Data
+                Science e Machine Learning.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <table id="maisInfo">
+          <tr>
+            <td class="cargaH">
+              <img src="imagens/sand-clock.png" width="30px" alt="" />
+              <h3>Carga Horária</h3>
+              <p>180h</p>
+            </td>
+            <td class="periodo">
+              <img src="imagens/noite-nublada.png" width="30px" alt="" />
+              <h3>Período</h3>
+              <p>Noturno</p>
+            </td>
+
+            <td class="hrTrans">
+              <img
+                src="imagens/relogio-circular-de-parede-para-sala-de-estar.png"
+                width="30px"
+                alt=""
+              />
+              <h3>Horário de Transmissão</h3>
+              <p>18:30 e 22:30</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="aulas">
+              <img src="imagens/laptop.png" width="30px" alt="" />
+              <h3>Aulas</h3>
+              <p>Online e ao vivo</p>
+            </td>
+
+            <td class="matConsul">
+              <img src="imagens/camera-de-video.png" width="30px" alt="" />
+              <h3>Material para consulta</h3>
+              <p>Aulas Gravadas</p>
+            </td>
+
+            <td class="matApoio">
+              <img
+                src="imagens/formato-de-arquivo-pdf.png"
+                width="30px"
+                alt=""
+              />
+              <h3>Material de apoio</h3>
+              <p>Em formato PDF</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!--Formulário de Inscrição-->
+      <section id="formulario">
+        <h2>Formulário de Inscrição</h2>
+
+        <form action="#" method="POST">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome Completo" />
+          </div>
+
+          <div>
+            <label for="sexo">Sexo</label>
+            <input type="text" id="sexo" list="lista_sexo" placeholder="Sexo" />
+            <datalist id="lista_sexo">
+              <option value="FEM">Feminino</option>
+              <option value="MAS">Masculino</option>
+            </datalist>
+          </div>
+
+          <div>
+            <label for="dnascimento">Data de Nascimento</label>
+            <input type="date" id="dnascimento" />
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input
+              pattern="^\d{2}-\d{5}-\d{4}$"
+              type="tel"
+              id="telefone"
+              placeholder="xx-xxxxx-xxxx"
+            />
+          </div>
+
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Email" id="email" name="email" />
+          </div>
+
+          <div>
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf" placeholder="CPF - somente numeros" />
+          </div>
+
+          <div>
+            <label for="rg">RG</label>
+            <input type="number" id="rg" placeholder="RG - somente números" />
+          </div>
+
+          <div>
+            <label for="endereço">Endereço</label>
+            <input type="text" placeholder="Endereço" id="endereço" />
+          </div>
+
+          <div>
+            <label for="numero">Número</label>
+            <input type="number" id="numero" placeholder="número" />
+          </div>
+
+          <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" placeholder="bairro" />
+          </div>
+
+          <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="cidade" />
+          </div>
+
+          <div>
+            <label for="estado">Estado:</label>
+            <input
+              type="text"
+              id="estados"
+              list="lista_estados"
+              placeholder="Estado"
+            />
+            <datalist id="lista_estados">
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </datalist>
+          </div>
+
+          <div>
+            <label for="cep">CEP</label>
+            <input type="number" id="cep" placeholder="CEP" />
+          </div>
+
+          <footer id="buttForm">
+            <button type="submit">Enviar</button>
+          </footer>
+        </form>
+      </section>
+
+      <section class="documentos">
+        <h3>Quais documentos enviar?</h3>
+        <p>
+          Confira abaixo quais documentos você precisa enviar pra gente no
+          e-mail <em>contato@soulcodeacademy.org:</em>
+        </p>
+        <ul>
+          <li>Carteira de Identidade (RG)</li>
+          <li>Cadastro de Pessoa Física (CPF)</li>
+          <li>Comprovante de Residência</li>
+          <li>Certificado de Dispensa/Reservista (Homens)</li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer id="rodape">
+      <br />
+      <img src="imagens/logo.png" id="logofooter" />
+
+      <div class="menufooteresq">
+        <h4 class="listamenu">Explore</h4>
+        <br />
+        <ul id="lista">
+          <small>
+            <li class="listas1">
+              <a href="index.html" target="_self">Início</a>
+            </li>
+            <li class="listas1">
+              <a href="apresEqu.html" target="_self">Equipe</a>
+            </li>
+            <li class="listas1">
+              <a href="contato.html" target="_self">Contato</a>
+            </li>
+          </small>
+        </ul>
+      </div>
+      <div class="textofooter">
+        <h4 class="titulotexto">endereço</h4>
+        <p>
+          <small>
+            Rua Helena, 235 Conj 111 <br />
+            11ª andar - Vila Olímpia São Paulo/SP <br />
+            CEP: 04552-050
+          </small>
+        </p>
+      </div>
+      <figure id="iconefooter">
+        <div id="linhahorizontal"></div>
+        <a href="https://www.facebook.com/SoulCodeAcademy/" target="_blank"
+          ><img
+            src="imagens/facebook.png"
+            id="facebook"
+            width="25px"
+            height="25px"
+        /></a>
+        <a
+          href="https://www.linkedin.com/company/soulcodebrasil/"
+          target="_blank"
+          ><img
+            src="imagens/linkedin.png"
+            id="linkedin"
+            width="25px"
+            height="25px"
+        /></a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"
+          ><img src="imagens/instagram.png" width="25px" height="25px"
+        /></a>
+      </figure>
+    </footer>
+  </body>
+</html>
