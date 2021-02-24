@@ -1,0 +1,60 @@
+* {
+  font-family: "Akaya Telivigala", cursive;
+  font-family: "DotGothic16", sans-serif;
+}
+
+ul#menu {
+  margin: 0; /* retira o recuo para alguns browsers */
+  padding: 0; /* retira o recuo para outros browsers */
+  list-style-type: none; /* retira o marcador de listas*/
+  background-color: #9d4ac4; /* cor do fundo */
+}
+
+ul#menu li {
+  border-bottom: 2px solid #000000;
+
+  /* coloca uma 
+    borda azul entre links */
+}
+
+ul#menu li a:link {
+  text-decoration: none;
+  /* retira o sublinhado dos links */
+  font-size: 15px; /* define o tamanho da fonte */
+  color: #ffffff; /* define a cor da fonte */
+}
+
+ul#menu li a:hover {
+  background-color: #1214a0; /* cor do fundo */
+  color: #ffffff; /* cor da fonte */
+  display: block;
+}
+
+ul#menu {
+  width: 300px; /* uma largura para o menu */
+  border: 1px solid #003399;
+  /* uma borda em volta do menu */
+}
+
+ul#menu li a:link,
+ul#menu li a:visited {
+  border-left: 10px solid #1214a0; /* uma barrinha a 
+    esquerda dos links */
+  padding: 10px 10px;
+}
+
+ul#menu li a:link,
+ul#menu li a:visited {
+  display: block;
+  height: 1%;
+}
+
+ul#menu li a:hover {
+  border-left: 10px solid #1214a0;
+  /* troca a cor da barrinha */
+}
+
+ul#menu li a:hover {
+  border-left: 10px solid #ececec;
+  /* troca a cor da barrinha */
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario de vacinação</title>
+</head>
+<body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h1>Formulário de Vacinação</h1>
+  
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" placeholder="Nome Aqui!" id="nome" />
+
+          <label for="dataAte">Data de Atendimento:</label>
+            <input type="date" id="dataAte">
+
+        </div>
+
+        <div>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="data">
+            <label for="sangue">Tipo Sanguineo</label>
+            <input list="sangue" />
+            <datalist id="sangue">
+              <option value="O"></option>
+              <option value="A"></option>
+              <option value="B"></option>
+              <option value="AB"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input pattern="^\d{2}-^\d{5}-^\d{4}$" required placeholder="XX-XXXXX-XXXX" type="tel" id="telefone" placeholder="Telefone aqui!">
+            <label for="sangue">Fator Rh</label>
+            <input list="Rh" />
+            <datalist id="Rh">
+              <option value="Positivo"></option>
+              <option value="Negativo"></option>
+            </datalist>
+        </div>
+  
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" placeholder="Email Aqui!" id="email" />
+          <label for="vacinas">Vacinas Aplicadas</label>
+          <input list="vacinas" />
+          <datalist id="vacinas">
+            <option value="BCG"></option>
+            <option value="Pertacel"></option>
+            <option value="Adacel e Refortrix"></option>
+            <option value="Infanrix Penta e Pediacel"></option>
+          </datalist>
+        </div>
+        
+        <div>
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" placeholder="Rua aqui">
+            <label for="obs">Comorbidades:</label>
+            <textarea placeholder="Observações Aqui!" id="obs"></textarea>
+        </div>
+        
+        <div>
+            <label for="number">Número:</label>
+            <input type="number" id="number" placeholder="Número">
+
+            <label for="Satisfação">Satisfação</label>
+            <input type="range"/>
+        </div>
+
+        <div>
+            <label for="Bairro">Bairro:</label>
+            <input type="Bairro" id="Bairro" placeholder="Bairro">
+        </div>
+
+        <div>
+            <label for="cep">CEP:</label>
+            <input required pattern="^\d{2}-^\d{3}-^\d{3}$" maxlength="8" type="text" id="cep" placeholder="00-000-000">
+        </div>
+
+        <div>
+          <label for="obs">Observações:</label>
+          <textarea placeholder="Observações Aqui!" id="obs"></textarea>
+        </div>
+</body>
+</html>

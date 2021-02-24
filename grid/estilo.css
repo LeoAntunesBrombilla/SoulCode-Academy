@@ -1,0 +1,23 @@
+.container {
+  background-color: rgba(98, 34, 110, 0.747);
+  width: 100%;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 213px repeat(2, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  gap: 40px 20px;
+  color: white;
+}
+
+.grid {
+  border: solid 2px black;
+}
+
+.impar {
+  background-color: rgba(25, 131, 96, 0.473);
+  /* grid-column: 1/ span 3; */
+}
+
+.par {
+  background-color: rgba(255, 0, 0, 0.521);
+}

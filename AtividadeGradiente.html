@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      width: 700px;
+      flex-wrap: wrap;
+      height: auto;
+      margin: 100px auto;
+    }
+
+    .box {
+      display: flex;
+      height: 200px;
+      width: 300px;
+      margin: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .caixa1 {
+      background-image: linear-gradient(
+        180deg,
+        rgb(172, 23, 47),
+        rgb(88, 87, 5) 50%
+      );
+    }
+
+    .caixa2 {
+      background-image: radial-gradient(rgb(199, 87, 139), rgb(89, 8, 126) 50%);
+    }
+
+    .caixa3 {
+      color: black;
+      background-image: linear-gradient(
+        45deg,
+        rgb(170, 163, 59),
+        white,
+        rgb(126, 94, 8)
+      );
+    }
+
+    .caixa4 {
+      color: black;
+      background-image: linear-gradient(
+        45deg,
+        rgb(87, 67, 14) 50%,
+        white,
+        rgb(61, 59, 170)
+      );
+    }
+
+    .caixa5 {
+      color: black;
+      background-image: repeating-radial-gradient(
+        rgba(165, 37, 37, 0.76) 3%,
+        rgba(52, 120, 197, 0.74) 20%
+      );
+    }
+
+    .caixa6 {
+      background-image: radial-gradient(rgb(87, 199, 130), rgb(89, 8, 126) 10%);
+    }
+
+    .caixa7 {
+      background-image: radial-gradient(
+        rgb(98, 196, 52) 10%,
+        rgb(156, 92, 185)
+      );
+    }
+
+    .caixa8 {
+      background-image: linear-gradient(
+        45deg,
+        rgb(131, 206, 88),
+        white,
+        rgb(27, 82, 153),
+        black
+      );
+    }
+
+    .caixa9 {
+      background-image: linear-gradient(
+        rgb(41, 37, 37) 50%,
+        rgb(205, 218, 35) 50%
+      );
+    }
+
+    .caixa10 {
+      color: black;
+      background-image: linear-gradient(
+        rgb(205, 218, 35) 50%,
+        rgb(41, 37, 37) 50%
+      );
+    }
+
+    .caixa11 {
+      background-image: linear-gradient(
+        90deg,
+        rgb(124, 218, 35) 50%,
+        rgb(41, 37, 37) 50%
+      );
+    }
+
+    .caixa12 {
+      color: black;
+      background-image: repeating-radial-gradient(
+        rgba(212, 10, 219, 0.76) 10%,
+        rgba(51, 127, 214, 0.74) 50%
+      );
+    }
+    .caixa13 {
+      color: black;
+      background-color: blanchedalmond;
+    }
+  </style>
+
+  <body>
+    <div class="box caixa1">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(172, 23, 47),
+        rgb(88, 87, 5) e com 180 graus.
+      </p>
+    </div>
+    <div class="box caixa2">
+      <p>
+        Nesta box utilizei um radial gradient com as cores rgb(199, 87, 139),
+        rgb(89, 8, 126) e com 50% na segunda cor.
+      </p>
+    </div>
+    <div class="box caixa3">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(170, 163, 59),
+        white, rgb(126, 94, 8) com 45 graus.
+      </p>
+    </div>
+    <div class="box caixa4">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(87, 67, 14),
+        white, rgb(61, 59, 170) adicioenei também 45 graus e 50% na primeira
+        cor.
+      </p>
+    </div>
+    <div class="box caixa5">
+      <p>
+        Nesta box utilizei um repeating radial gradient com as cores rgba(165,
+        37, 37, 0.76), rgba(52, 120, 197, 0.74) além de adicionar 3% na primeira
+        cor e 20% na segunda.
+      </p>
+    </div>
+    <div class="box caixa6">
+      <p>
+        Nesta box utilizei um radial gradient com as cores rgb(87, 199, 130),
+        rgb(89, 8, 126) e com 10% na segunda cor.
+      </p>
+    </div>
+    <div class="box caixa7">
+      <p>
+        Nesta box utilizei um radial gradient com as cores rgb(98, 196, 52),
+        rgb(156, 92, 185) e com 10% na primeira cor.
+      </p>
+    </div>
+    <div class="box caixa8">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(131, 206, 88),
+        white, rgb(27, 82, 153), black. Ademais, adicionei os 45 graus.
+      </p>
+    </div>
+    <div class="box caixa9">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(41, 37, 37),
+        rgb(205, 218, 35) e adicionei 50% em cada cor.
+      </p>
+    </div>
+    <div class="box caixa10">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(205, 218, 35),
+        rgb(41, 37, 37) e adicionei 50% em cada cor.
+      </p>
+    </div>
+    <div class="box caixa11">
+      <p>
+        Nesta box utilizei um linear gradient com as cores rgb(124, 218, 35)
+        50%, rgb(41, 37, 37) 50% além de adicionar 50% na primeira cor, 50% na
+        segunda e 90 graus.
+      </p>
+    </div>
+    <div class="box caixa12">
+      <p>
+        Nesta box utilizei um repeating radial gradient com as cores rgba(212,
+        10, 219, 0.76), rgba(51, 127, 214, 0.74) além de adicionar 10% na
+        primeira cor e 50% na segunda.
+      </p>
+    </div>
+    <div class="box caixa13">
+      <p>
+        Autor: Leonardo Antunes, <br />
+        Data de criação: 11 fev, <br />
+        Horário de término: 11:43
+      </p>
+    </div>
+  </body>
+</html>

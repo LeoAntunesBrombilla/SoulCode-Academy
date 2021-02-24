@@ -1,0 +1,36 @@
+body {
+    background-color: #b7b7a4;
+    font-family: monospace;
+}
+
+header h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#preparo {
+    line-height: 1.4;
+}
+
+#conteudoPrincipal {
+    background-color: #ffe8d6;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.tempo {
+    font-style:italic;
+    font-variant: small-caps;
+}
+
+.lista {
+    color: green;
+}
+
+.ingredientesExtras {
+    color: blue;
+    padding-bottom: 15px;
+}
+

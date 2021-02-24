@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  background-color: #3cb4c4;
+  height: 110px;
+}
+
+#imagem {
+  width: 30%;
+  height: 100%;
+}
+
+#imagem img {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  width: 12%;
+  height: 8%;
+  cursor: pointer;
+}
+
+#listas {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+}
+
+#listas ul {
+  display: inline-block;
+  list-style: none;
+}
+
+#botao {
+  width: 30%;
+  height: 100%;
+  color: white;
+}
+
+#botao button {
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+  height: 100%;
+  width: 150px;
+  background-color: #f8c100;
+  cursor: pointer;
+  border: none;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #3cb4c4;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  left: 200px;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;  
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

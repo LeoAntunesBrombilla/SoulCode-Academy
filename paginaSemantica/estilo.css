@@ -1,0 +1,67 @@
+#titulo {
+  text-align: center;
+  color: whitesmoke;
+  width: auto;
+  height: 100px;
+  background-color: black;
+}
+
+#assunto1 {
+    text-align: center;
+    color: whitesmoke;
+    width: auto;
+    background-color: rgb(216, 199, 49);
+    color: black;
+}
+
+#assunto2 {
+    text-align: center;
+    color: whitesmoke;
+    width: auto;
+    background-color: rgb(216, 199, 49);
+    color: black;
+}
+
+#assunto3 {
+    text-align: center;
+    color: whitesmoke;
+    width: auto;
+    background-color: rgb(216, 199, 49);
+    color: black;
+}
+
+nav {
+  float: right;
+  width: 150px;
+  height: 450px;
+  background-color: grey;
+}
+
+article {
+  width: auto;
+  height: 150px;
+}
+
+#articleOne {
+  background-color: #b5838d;
+}
+
+#articleTwo {
+  background-color: #7209b7;
+}
+
+#articleThree {
+  background-color: #9d0208;
+}
+
+footer {
+  float: inline-end;
+  text-align: center;
+  width: auto;
+  height: 150px;
+  background-color: #1d3557;
+}
+
+a {
+  display: block;
+}

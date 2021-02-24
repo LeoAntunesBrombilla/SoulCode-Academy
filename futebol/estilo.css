@@ -1,0 +1,87 @@
+#titulo {
+  text-align: center;
+  color: black;
+  width: auto;
+  height: 100px;
+  background-color:  #8c8d8f;
+}
+
+section {
+  height: 300px;
+}
+
+#assunto1 {
+  text-align: center;
+  color: whitesmoke;
+  width: auto;
+  background-color: rgb(233, 227, 173);
+  color: black;
+}
+
+#futebol {
+  max-width: 200px;
+  height: 150px;
+}
+
+#assunto2 {
+  text-align: center;
+  color: whitesmoke;
+  width: auto;
+  background-color: rgb(233, 227, 173);
+  color: black;
+}
+
+#futebol2 {
+  max-width: 200px;
+  height: 120px;
+}
+
+
+#assunto3 {
+  text-align: center;
+  color: whitesmoke;
+  width: auto;
+  background-color: rgb(233, 227, 173);
+  color: black;
+}
+
+
+nav {
+  float: left;
+  width: 170px;
+  height: 1030px;
+  background-color: rgb(34, 32, 32);
+}
+
+p {
+  color: white;
+}
+
+article {
+  width: auto;
+  height: 150px;
+}
+
+#articleOne {
+  background-color: #8c8d8f;
+}
+
+#articleTwo {
+  background-color: #8c8d8f;
+}
+
+#articleThree {
+  background-color: #8c8d8f;
+}
+
+footer {
+  width: auto;
+  text-align: center;
+  height: 130px;
+  background-color:rgb(57, 57, 139);
+  color: white;
+}
+
+a {
+  display: block;
+}

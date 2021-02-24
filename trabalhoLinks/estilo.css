@@ -1,0 +1,16 @@
+.corpo {
+    text-align: center;
+    border-style: solid;
+}
+
+#texto {
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+
+a {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}

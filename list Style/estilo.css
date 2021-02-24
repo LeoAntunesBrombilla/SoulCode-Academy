@@ -1,0 +1,12 @@
+ul.none {
+  list-style-type: none;
+}
+ul.disc {
+  list-style-type: hiragana;
+}
+ul.circle {
+  list-style-type: katakana;
+}
+ul.square {
+  list-style-type: armenian;
+}

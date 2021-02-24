@@ -1,0 +1,599 @@
+/* reset */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* alinhar h2 centro */
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*** Menu Amanda  ***/
+
+nav {
+  background-color: rgba(37, 37, 37);
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(37, 37, 37);
+}
+
+#menu li {
+  float: right;
+}
+
+#menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: rgb(247, 223, 67);
+  color: black;
+}
+
+/* paginas de curso */
+
+.submenu {
+  display: none;
+  position: relative;
+  background-color: rgba(37, 37, 37);
+  min-width: 220px;
+}
+
+.submenu ul {
+  position: absolute;
+}
+
+.submenu li {
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  background-color: rgba(37, 37, 37);
+}
+
+.submenu a {
+  min-width: 220px;
+}
+
+.menu:hover .submenu {
+  display: block;
+  position: absolute;
+}
+
+#logo-menu {
+  position: absolute;
+  width: 10%;
+  top: 10px;
+  left: 10px;
+}
+
+/*menu e submenu fim*/
+
+/* titulo e imagem principal */
+
+#imagemhead {
+  width: 100%;
+  height: 500px;
+}
+
+#titulo {
+  text-align: center;
+  margin: 20px;
+}
+
+/* fim do titulo e imagem principal */
+
+/* breve descrição do curso */
+
+#breveDescri {
+  background-color: rgb(233, 233, 233);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 2px solid rgb(175, 175, 175);
+  border-right: 2px solid rgb(175, 175, 175);
+  padding: 20px;
+}
+
+#breveDescri p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 5px;
+}
+
+/* fim breve descrição do curso */
+
+/* cards dos cursos */
+
+/* Tabelas meio site*/
+
+.card_categ {
+  height: 500px;
+  width: 96%;
+}
+
+.categ_titulo {
+  vertical-align: center;
+  font-size: 20px;
+  color: rgb(78, 78, 78);
+  text-align: center;
+}
+
+.card_imagem {
+  padding: 5%;
+  width: 50%;
+  height: auto;
+}
+
+.categ_description {
+  padding: 3% 8%;
+  text-align: center;
+}
+
+.curses_description {
+  padding: 3% 12%;
+}
+
+.categ_button {
+  position: relative;
+  background-color: cornflowerblue;
+  top: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: solid 1px;
+}
+
+.categ_button a {
+  color: black;
+  text-decoration: none;
+}
+
+.tabCurso {
+  width: 400px;
+  text-align: center;
+}
+
+.tabDesc {
+  text-align: center;
+  width: 400px;
+  border-radius: 25px;
+  background-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-color: rgb(199, 199, 199);
+  border-top: 0px;
+  border-left: 0px;
+}
+
+table {
+  border-spacing: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 23px;
+}
+
+.imagemconteudo {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 45%;
+  height: auto;
+}
+
+/* fim dos cards dos cursos */
+
+/* Aqui começa o layout das paginas de curso */
+
+/* Estilo para página Cursos */
+
+#desc-Curso {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  height: 210px;
+}
+
+#nomeCurso {
+  padding-top: 20px;
+}
+
+.info-txt {
+  text-align: left;
+  padding: 5px;
+  justify-content: left;
+}
+
+.info-txt h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.info-txt p {
+  font-size: 20px;
+}
+
+/* imagem, descrição e cards dos cursos */
+
+#prog {
+  width: 250px;
+}
+
+#info {
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#maisInfo {
+  width: 50%;
+  border: none;
+  margin: 0 auto;
+  border-spacing: 5px;
+  text-align: center;
+}
+
+#maisInfo p {
+  padding-bottom: 25px;
+}
+
+.info-img {
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+}
+
+.info-txt {
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+}
+
+.cargaH {
+  padding-top: 20px;
+  background-color: rgb(247, 223, 67);
+  width: 33%;
+}
+
+.periodo {
+  padding-top: 20px;
+  background-color: rgb(55, 172, 211);
+  width: 33%;
+}
+
+.hrTrans {
+  padding-top: 20px;
+  background-color: rgb(247, 223, 67);
+  width: 33%;
+}
+
+.aulas {
+  padding-top: 20px;
+  background-color: rgb(55, 172, 211);
+  width: 33%;
+}
+
+.matConsul {
+  padding-top: 20px;
+  background-color: rgb(247, 223, 67);
+  width: 33%;
+}
+
+.matApoio {
+  padding-top: 20px;
+  background-color: rgb(55, 172, 211);
+  width: 33%;
+}
+
+/* aqui termina a imagem, descrição e cards dos cursos */
+
+/* formulário de inscrição */
+
+#formulario h2 {
+  text-align: center;
+}
+
+#formulario {
+  width: 40%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#formulario input {
+  width: 100%;
+  clear: both;
+}
+
+form {
+  border: solid 2px black;
+}
+
+#buttForm {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+form div {
+  margin: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+/* fim do formulário de inscrição */
+
+/* relação de documentos */
+.documentos {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.documentos ul {
+  clear: both;
+}
+
+/* Aqui começa o layout da pagina de Contato */
+
+.banner {
+  background-color: rgb(37, 37, 37);
+  height: 60px;
+}
+
+#h1banner {
+  margin-left: 60px;
+  color: white;
+  font-size: 48px;
+}
+
+#footerContato {
+  text-align: center;
+  justify-content: center;
+}
+
+#buttonContato {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border-radius: 5%;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+}
+
+.bannerp {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.descricao {
+  vertical-align: top;
+}
+
+.box1 {
+  height: 400px;
+  width: 500px;
+  /*background-color: rgb(255, 177, 177);*/
+  padding: 0 50px;
+}
+
+#contatoForm {
+  border: none;
+  clear: both;
+}
+
+table form {
+  height: 500px;
+}
+
+.box2 {
+  height: 500px;
+  width: 640px;
+  /*background-color: rgb(23, 220, 255);*/
+  padding: 0px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+td.box2 h2 {
+  font-size: 14px;
+  padding: 0px 15px;
+  padding-top: 25px;
+}
+
+td.box2 p {
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#greet {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Aqui começa o layout da pagina da Equipe */
+
+.membroEqu {
+  background-color: rgb(247, 223, 67);
+  height: 300px;
+  width: 90%;
+  text-align: center;
+  justify-content: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+  left: 120px;
+  border-radius: 15px;
+  border-bottom: 4px solid rgb(175, 175, 175);
+  border-left: 4px solid rgb(175, 175, 175);
+}
+
+.membroEqu1 {
+  background-color: rgb(215, 218, 219);
+  height: 300px;
+  width: 90%;
+  padding-left: 100px;
+  text-align: center;
+  justify-content: left;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border-bottom: 4px solid rgb(175, 175, 175);
+  border-right: 4px solid rgb(175, 175, 175);
+}
+
+.img1 {
+  padding-top: 20px;
+  width: 19%;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  left: 50px;
+  bottom: 3px;
+  border-radius: 100%;
+}
+.img2 {
+  padding-top: 20px;
+  width: 19%;
+  margin: 0 auto;
+  float: right;
+  position: relative;
+  right: 50px;
+  bottom: 3px;
+  border-radius: 100%;
+}
+.nomeEqu {
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+.descEqu {
+  width: 600px;
+  padding: 2% 2%;
+  height: 200px;
+  float: left;
+  font-size: 18px;
+  position: relative;
+  left: 150px;
+  color: rgb(17, 6, 6);
+}
+
+.descEqu1 {
+  width: 900px;
+  padding: 2% 2%;
+  height: 200px;
+  float: right;
+  font-size: 18px;
+  position: relative;
+  right: 150px;
+}
+
+.equFac {
+  font-size: 16px;
+  float: left;
+  padding-left: 170px;
+}
+
+/*Footer*/
+
+#rodape {
+  background-color: rgb(32, 32, 32);
+  width: 100%;
+  height: 250px;
+  margin-top: 50px;
+}
+
+#logo {
+  width: 10%;
+}
+
+.listamenu {
+  color: snow;
+  text-align: center;
+}
+
+.titulotexto {
+  color: snow;
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.textofooter {
+  padding-right: 50px;
+  float: right;
+  color: aliceblue;
+  text-align: center;
+}
+
+.menufooteresq {
+  float: left;
+  color: aliceblue;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+#lista a {
+  color: cornsilk;
+}
+
+a {
+  text-decoration: none;
+}
+
+#lista {
+  list-style: none;
+}
+
+.listas1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#iconefooter {
+  padding-left: 615px;
+  padding-top: 20px;
+}
+
+#facebook,
+#linkedin {
+  margin-right: 10px;
+}
+
+#logofooter {
+  padding-top: 50px;
+  padding-left: 400px;
+  width: 15%;
+}
+
+/*Footer final*/
