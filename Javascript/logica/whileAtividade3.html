@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade while 3</title>
+  </head>
+  <body>
+    <script>
+      var maiorDeIdade = 0;
+      var menorDeIdade = 0;
+
+      while (valor !== 0) {
+        var valor = parseInt(
+          prompt("Digite uma idade, se quiser parar digite 0 (zero)")
+        );
+        if (valor >= 18) {
+          maiorDeIdade++;
+        } else {
+          menorDeIdade++;
+        }
+      }
+
+      document.writeln("O número de menores de idade é: " + (menorDeIdade - 1));
+    </script>
+  </body>
+</html>

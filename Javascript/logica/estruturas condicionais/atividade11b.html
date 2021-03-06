@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var valor = parseInt(prompt("Digite quantos valores"));
+      var indice = 1;
+      var pares = 0;
+      var impares = 0;
+      var somaPares = 0;
+      var somaImpares = 0;
+
+      while (indice <= valor) {
+          numEntrada = parseInt(prompt("Digite um valor"));
+          if (numEntrada % 2 == 0) {
+            pares++;
+            somaPares += numEntrada;
+          } else if (numEntrada % 2 != 0) {
+            impares++;
+            somaImpares += numEntrada;
+          } else {
+            alert("valor negativo ou invalido!");
+          }
+        indice++
+      }
+
+      document.writeln("Quantidade de numeros pares: " + pares);
+      document.writeln("<br/>");
+      document.writeln("Quantidade de numeros impares: " + impares);
+      document.writeln("<br/>");
+      document.writeln("Media dos numeros pares: " + somaPares / pares);
+      document.writeln("<br/>");
+      document.writeln(
+        "Quantidade total: " + (somaPares + somaImpares) / valor
+      );
+      document.writeln("<br/>");
+      document.writeln(0);
+    </script>
+  </body>
+</html>

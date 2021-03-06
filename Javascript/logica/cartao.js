@@ -1,0 +1,1 @@
+var metodoPagamento = prompt("Para pagar a vista digite 1, para pagar em 2 vezes digite 2 e para pagar em 3 vezes digite 3");

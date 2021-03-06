@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra</title>
+  </head>
+  <body>
+    <script>
+      
+      var produto = parseInt(prompt("Digite o valor da compra!")); // pede o valor para o ususario
+      var precoFinal; // inicializa uma variavel para calcular o preço final
+      
+      var metodoPagamento = prompt(
+        "Sua compra foi de " + produto + "R$ Para pagar a vista digite 1, para pagar em 2 vezes digite 2 e para pagar em 3 vezes digite 3"
+      );
+
+    
+      if (metodoPagamento == "1") {
+        var metodoAVista = prompt(
+          "Para pagar no cartao digite 1, para pagar no cheque digite 2 e para pagar em dinheiro digite 3"
+        );
+        if (metodoAVista == "1") {
+          precoFinal = produto - (produto * 0.1);
+          alert("Voce recebeu 10% de desconto, ficando no total " + precoFinal  + "R$");
+        } else if (metodoAVista == "2") {
+          precoFinal = produto - (produto * 0.1);
+          alert("Voce recebeu 10% de desconto, ficando no total " + precoFinal  + "R$");
+        } else if (metodoAVista == "3") {
+          precoFinal = produto - (produto * 0.15);
+          alert("Voce recebeu 15% de desconto, ficando no total " + precoFinal  + "R$");
+        } else {
+          alert("Voce não escolheu nenhum método válido");
+        }
+      } else if (metodoPagamento == "2") {
+        alert("Compra feita sem juros!. Preço total de " + produto + "R$");
+      } else if (metodoPagamento == "3") {
+        precoFinal = produto + (produto * 0.1);
+        alert("Compra feita com 10% de juros! Totalizando " + precoFinal + "R$");
+      } else {
+        alert("Por favor, escolha um método de pagamento válido!");
+      }
+    </script>
+  </body>
+</html>

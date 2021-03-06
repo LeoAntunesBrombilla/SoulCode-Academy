@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Votos</title>
+  </head>
+  <body>
+
+
+    <script>
+      var idade = prompt("Qual a sua idade");
+      if (idade < 16) {
+        var texto = "Não pode votar";
+      } else if (idade >=16  && idade <=17) {
+        var texto = "Voto facultativo";
+      } else if (idade >= 18 && idade <= 70) {
+        var texto = "Voto obrigatório";
+      } else {
+        var texto = "Voto facultativo (idoso)";
+      }
+
+      document.write(texto);
+    </script>
+  </body>
+</html>
